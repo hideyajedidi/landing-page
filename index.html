@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing_page</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;}
+        .container{
+            background-color: #1f2937;
+            color: #F9FAF8;
+        }
+      .logo{
+        height: auto;
+        width: 300px;
+      }
+      .container1,.container2{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 250px;
+        margin-right: 250px;
+        background-color: transparent;
+        
+      }
+      .navbar{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+      .navbar a {
+        font-size: 18px;
+        color: #E5E7EB;
+        text-decoration: none;
+    }
+      button{
+        height: 30px;
+        width:70px;
+        background-color: #3882f6;
+        color: #f9faf8;
+        font-weight: bold;
+      }
+      #main{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 48px;
+        font-weight: 900;
+        color: #f9faf8;
+      }
+      .class{
+        align-items: center;
+        width: 350px;
+      }
+      .info {
+        text-align: center;
+        padding: 50px;
+    }
+    
+    .info h2 {
+        font-size: 36px;
+        font-weight: 900;
+        color: #1F2937;
+    }
+    .boxes{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    .box{
+        height: auto;
+        width: 100px;
+    }
+   
+    .quote {
+        background-color: #E5E7EB;
+        padding: 50px;
+        text-align: center;
+        font-size: 36px;
+        font-style: italic;
+        font-weight: 300;
+        color: #1F2937;
+    }
+    
+   
+    .action {
+        background-color: #3882F6;
+        color: white;
+        padding: 30px;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    footer {
+        background-color: #1F2937;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+    </style>
+</head>
+<body>
+ <div class="container">
+
+    <div class="container1">
+         <img src="odin.png" alt="odinProject logo" class="logo">
+         <div class="navbar">
+         <a href="https://www.theodinproject.com/">the odin Project</a>
+         <a href="https://github.com/hideyajedidi">github</a>
+         <a href="http://www.linkedin.com/in/hideya-jedidi-8b4874351">linkedin</a>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="class">
+        <h1 id="main">this website is awesome </h1>
+        <p style="color: #f9faf8;" >High quality coding education maintained by an open source community </p>
+        <button onclick="window.open('https://www.theodinproject.com/', '_blank');"> sign up</button>
+        </div>
+        <img src="odin.png" alt="this is a placeholder for an image" width="500px" flex:1;>
+   </div>
+
+</div>
+</div>
+<div class="info">
+    <h2>Some random information</h2>
+    <div class="boxes">
+        <div class="box">
+            <img src="odin.png" width="100" alt="image"><br>
+            this is some subtext under an illustration or image
+        </div>
+        <div class="box">
+            <img src="odin.png" width="100" alt="image"><br>
+            this is some subtext under an illustration or image
+        </div>
+        <div class="box">
+            <img src="odin.png" width="100" alt="image"><br>
+            this is some subtext under an illustration or image
+        </div>
+        <div class="box">
+            <img src="odin.png" width="100" alt="image"><br>
+            this is some subtext under an illustration or image
+        </div>
+    </div>
+</div>
+
+<div class="quote">
+    <p>"This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice."</p>
+    <strong>- Thor, God of Thunder</strong>
+</div>
+
+
+<div class="action">
+    <h2>Call to action! It's time!</h2>
+    <p>Sign up for our product by clicking that button right over there!</p>
+    <button>Sign up</button>
+</div>
+
+<footer>
+    Copyright © The Odin Project 2021
+</footer>
+    
+</body>
+</html>
